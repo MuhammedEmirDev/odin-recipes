@@ -1,0 +1,35 @@
+body{
+    background-color: #1a1a1a;
+    padding: auto;
+}
+#title{
+    color: #90c695;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: auto;
+}
+
+.titles,.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #d4d4d4;
+    font-family: arial,verdana,helvetica;
+}
+.titles{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.lists{
+    font-size: 18px;
+    color: #d4d4d4 ;
+    font-family: arial,verdana,helvetica;
+}
+#image{
+    width: 300px;
+    height: auto;
+    border: solid #1a1a1a;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
