@@ -1,18 +1,48 @@
 body{
     background-color: #1a1a1a;
+   
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .main_title{
     color: #d4d4d4;
     font-size: 48px;
     font-family: georgia,garamond,'Times New Roman';
+
+    display: flex;
+    justify-content: center;
+ 
 }
-.recipe_titles,.recipe_links{
-    font-size: 18px;
-    color: #ffffff;
+
+.card-container{
+    
+    display: flex; 
+   
+    
+}
+img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.card{
+    
+    padding: 16px;
+    margin: 10px;
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 4px 16px rgba(255,255,255,0.1);
+}
+ol{
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+a{
+    color: #FF6B35 ;
     text-decoration: none;
-    font-family: arial,verdana,helvetica;
-}
-.recipe_list{
-    margin-bottom: 15px;
 }
