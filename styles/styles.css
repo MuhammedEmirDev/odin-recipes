@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
     background-color: #1a1a1a;
    
@@ -13,7 +21,7 @@ body{
 
     display: flex;
     justify-content: center;
- 
+    padding: 10px;
 }
 
 .card-container{

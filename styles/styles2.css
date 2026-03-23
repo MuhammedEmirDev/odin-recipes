@@ -1,35 +1,85 @@
 body{
     background-color: #1a1a1a;
     padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
 }
 #title{
-    color: #90c695;
+    color: #FF6B35;
     font-size: 32px;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-family: Georgia,Garamond;
     padding: 20px;
 }
 
-.titles,.link{
+.titles,.list{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #d4d4d4;
-    font-family: arial,verdana,helvetica;
+    font-family: Georgia,Garamond;
 }
 .titles{
-    margin-top: 35px;
-    margin-bottom: 25px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    
 }
 .lists{
-    font-size: 18px;
+    font-size: 20px;
     color: #d4d4d4 ;
-    font-family: arial,verdana,helvetica;
+    font-family: Georgia,Garamond;
 }
 #image{
     width: 300px;
-    height: auto;
-    border: solid #1a1a1a;
-    margin-top: 30px;
+    height: 200px;
+    margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
+    object-fit: cover
+}
+.hero-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.Ingredients-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10px;
+}
+.link{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1;
+    color:  #FF6B35;
+    font-family: Georgia,Garamond;
+    border-radius: 50px;
+    border: solid #FF6B35 5px;
+}
+
+.recipe-title{
+    display: flex;
+    flex-flow: column wrap;
+    background: #2d2d2d;
+    border-radius: 12px;
+    width: 800px;
+    align-items: center;
+    padding: 10px;
+}
+.cook-steps-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.ing-cont,.cooking{
+    background: #2d2d2d;
+    border-radius: 12px;
+    width: 800px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 20px;
+    padding: 10px;
 }
